@@ -1,0 +1,120 @@
+body{
+  background-color:black;
+  margin:10px;
+}
+header{
+	background-color: black;
+	color: white;
+}
+.style{
+	font-size:10px;
+	line-height:0;
+	color: white;  
+	float:left; 
+	margin-left: 0px; 
+	text-transform: uppercase;
+}
+.head{
+	padding: 10px;
+	height:80px;
+	display:flex;
+	flex-wrap:wrap;
+	color:skyblue;
+	font-family: Georgia, serif;
+}
+.head img{
+	width: 100px;
+	height:100px;
+}
+.head h2{
+	margin: auto 0;
+}
+.icons{
+	text-align:right;
+	flex-grow: 1;
+}
+.icons i {
+    	margin:0 7px;
+		cursor:pointer;
+}
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.row1{
+	display:flex;
+}
+.column1{
+	flex:50%;
+	padding:10px;
+	height:300px;
+}
+.column1 p{
+	background-color:black;
+	color:white;
+}
+.column1 h2{
+	background-color:black;
+	color:white;
+}
+img {
+  float: left;
+  margin:10px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:black;
+  color:white;
+}
+
