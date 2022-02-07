@@ -1,0 +1,58 @@
+<!Doctype html>
+<head>
+<style>
+body  {
+  background-image: url("https://www.jing.fm/clipimg/full/443-4431077_kpop-frame-border-triangle-neon-triangleneon-triangle.png"),url("6NoOjx.jpg");
+}
+
+fieldset {
+ font-size:15px;
+ padding:10px;
+ width:450px;
+ line-height:2.3;
+}
+</style>
+</head>
+<body>
+<center>
+<h2>USER INPUT FORM</h2>
+
+<form action="/action_page.php">
+<fieldset>
+  <legend>Personal Particular</legend>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" value=" "><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" value=""><br><br>
+  <label for="gender">Gender:</label> 
+  <input type="radio" name="sex" value="male"> Male
+  <input type="radio" name="sex" value="female"> Female<br><br>
+  <label for="age">SELECT:</label>
+  <select id='age' name="age">
+  <option> below 12 years </option>
+  <option> below 18 years</option>
+  <option> above 18 years</option>
+  <option> below 60 years</option>
+  </select>
+  </fieldset>
+  <fieldset>
+  <legend>Languagees</legend>
+  <input type="checkbox" id="lang" name="lang" value=" ">
+  <label for="lang"> Java </label>
+  <input type="checkbox" id="lang" name="lang" value=" ">
+  <label for="lang"> C/C++ </label>
+  <input type="checkbox" id="lang" name="lang" value=" ">
+  <label for="lang"> C# </label>
+ </fieldset>
+ <fieldset>
+ <legend>Instruction</legend>
+ <textarea rows = "5" cols = "50" name = "description">
+ Enter your Instruction here...
+  </textarea>
+ </fieldset>
+  <input type="Submit" value="Send"></button>
+    <input type="reset" value="Clear"></button>
+</form>
+</center> 
+</body>
+</html>
